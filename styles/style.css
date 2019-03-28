@@ -4,9 +4,9 @@ html{
     scroll-behavior: smooth;
 }
 
-.navbar{
-  background-color: #0420A3;
-  color: #fff;
+.bg-primary{
+  background-color: #0420A3!important;;
+
 }
 .overlay{
     width: 100%;
@@ -132,7 +132,7 @@ html {
   #phone-number{
     padding: 10px;
     color: #fff;
-    background-color: blue;
+    background-color: #0420A3;
     display: inline-block;
     border-radius: 10px;
   }
