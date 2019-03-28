@@ -10,7 +10,14 @@ html{
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.4)
 }
+.heading{
+  margin-bottom: 50px;
+}
 
+.container{
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
 .titleMessage{
     position: absolute;
     z-index:5;
@@ -60,6 +67,11 @@ html{
     
 }
 
+/* ABOUT */
+#about{
+  margin-top: 100px;
+}
+
 /* BOOSTRAP PRICING */
 html {
     font-size: 14px;
@@ -86,3 +98,22 @@ html {
   .border-bottom { border-bottom: 1px solid #e5e5e5; }
   
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/* SERVICES */
+
+  #services-container{
+
+  }
+  /* ADITIONAL SERVICES */
+  #additional-services li{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #phone-number{
+    padding: 10px;
+    color: #fff;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 10px;
+  }
