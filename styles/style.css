@@ -100,11 +100,24 @@ html {
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 /* SERVICES */
-
+#services, #additional-services{
+  background-color: #0420A3;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
   #services-container{
-
+    width: 50%;
+    margin: auto;
   }
+  
+
   /* ADITIONAL SERVICES */
+  #additional-services-container{
+    width: 70%;
+    list-style: none;
+    margin: auto;
+  }
   #additional-services li{
     display: flex;
     justify-content: space-between;
