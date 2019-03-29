@@ -10,10 +10,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target="#main-nav" data-offset="100">
         <header>
         <!--NAV-BAR-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
             <a class="navbar-brand" href="#">Alan Diaz</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse  d-md-flex justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
                     <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#slides">Home <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
@@ -95,10 +95,9 @@
                         physical damage auto insurance premiums and remove up to 4 points off 
                         your driver license!
                     </p>
+
                   <h4>Road test appointment</h4>
-                  
-                  <h4>Car for road test</h4>
-                    
+                  <h4>Car for road test</h4> 
                   <h4>Door-to-door pick up</h4>
                 </div>
             </div>

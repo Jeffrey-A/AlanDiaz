@@ -3,10 +3,18 @@ HEADER SECTION */
 html{
     scroll-behavior: smooth;
 }
+body{
+  position: relative;
+}
 
 .bg-primary{
   background-color: #0420A3!important;;
 
+}
+.btn-primary {
+  color: #fff;
+  background-color: #0420A3;
+  border-color: #0420A3;
 }
 .overlay{
     width: 100%;
