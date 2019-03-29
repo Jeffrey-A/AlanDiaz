@@ -23,6 +23,10 @@ body{
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.4)
 }
+
+header{
+  margin-bottom: 120px;
+}
 .heading{
   margin-bottom: 50px;
 }
@@ -48,11 +52,14 @@ body{
     letter-spacing: 5px;
 }
 
+
 .main{
     font-size: 50px;
 }
 .sub{
     font-size: 23px;
+    width: 90%;
+    margin: auto;
 }
 
 
@@ -60,7 +67,8 @@ body{
     z-index: 6;
 }
 .slides-navigation .prev,
-.slides-navigation .next{
+.slides-navigation .next,
+.bottom{
     width: 47px;
     height: 47px;
     background-size: cover;
@@ -74,6 +82,17 @@ body{
     
 }
 
+.bottom-icon-div{
+  z-index: 7;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 90%;
+}
+/* .bottom{
+  margin: auto;
+} */
+
 .slides-navigation a.next{
     right: 20px;
     background-image: url("../img/icons/next.png");
@@ -81,9 +100,7 @@ body{
 }
 
 /* ABOUT */
-#about{
-  margin-top: 100px;
-}
+
 
 /* BOOSTRAP PRICING */
 html {
@@ -156,3 +173,15 @@ html {
   footer p{
     margin-bottom: 0;
   }
+
+  @media (max-width: 576px) {
+    .slides-navigation .prev,
+    .slides-navigation .next{
+      display: none;
+    }
+
+    #services-container{
+      width: 80%;
+    }
+
+   }
