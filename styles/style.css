@@ -25,7 +25,7 @@ body{
 }
 
 header{
-  margin-bottom: 120px;
+  margin-bottom: 110px;
 }
 .heading{
   margin-bottom: 50px;
@@ -100,7 +100,10 @@ header{
 }
 
 /* ABOUT */
-
+#about p{
+  font-size: 1.2rem;
+  text-align: center;
+}
 
 /* BOOSTRAP PRICING */
 html {
@@ -154,6 +157,7 @@ html {
   #additional-services li{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px dotted #fff;
   }
 
   #phone-number{
@@ -182,6 +186,10 @@ html {
 
     #services-container{
       width: 80%;
+    }
+
+    #additional-services-container {
+      width: 90%;
     }
 
    }
