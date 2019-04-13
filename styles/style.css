@@ -26,6 +26,9 @@ body{
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.4)
 }
+.slides-container img{
+  width: 50%;
+}
 
 header{
   margin-bottom: 110px;
