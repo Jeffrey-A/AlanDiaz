@@ -184,6 +184,12 @@ html {
     margin-bottom: 0;
   }
 
+  @media (min-width:577px){
+    .bottom-icon-div{
+      display: none;
+    }
+  }
+
   @media (max-width: 576px) {
     .slides-navigation .prev,
     .slides-navigation .next{
