@@ -1,3 +1,3 @@
 # AlanDiaz
-A portfolio website for my friend Alan Diaz, who is a driving instructor.
+A portfolio website for my ex-driving  instructor Alan Diaz.
 
